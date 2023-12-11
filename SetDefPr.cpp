@@ -8,7 +8,8 @@ int CALLBACK WinMain( _In_ HINSTANCE /*hInst*/, _In_opt_ HINSTANCE /*hPrevInst*/
 	/* Parameter check */
 	if ( __argc != 2 )
 	{
-		MessageBox( NULL, _T("Usage:\n\nSetDefPr \"Printer Device Name\"\n\nNote: The printer device name must match the case of the name precisely."), szAppName, MB_OK | MB_ICONINFORMATION );
+		MessageBox( NULL, _T("Usage:\n\nSetDefPr \"Printer Device Name\"\n\nNote: The printer device name must match the case of the name precisely."),
+			szAppName, MB_OK | MB_ICONINFORMATION );
 		return 0;
 	}
 
